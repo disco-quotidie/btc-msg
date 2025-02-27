@@ -1,0 +1,22 @@
+{
+  "name": "btc-msg",
+  "version": "1.0.0",
+  "description": "Node module to parse embedded message from bitcoin transaction",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node test.js",
+    "dev": "nodemon test.js",
+    "cli": "node cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "bitcoinjs-lib": "^6.1.7"
+  }
+}
