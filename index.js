@@ -8,6 +8,7 @@ const parseTxHex = (txHex) => {
   if (tx && tx.ins && tx.ins.length > 0) {
     for (const _in_ of tx.ins) {
       const scriptBuffer = Buffer.from(_in_.script)
+      console.log(scriptBuffer.toString('hex'))
       const firstByte = scriptBuffer[0];
 
       // convert firstByte to integer
